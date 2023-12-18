@@ -257,6 +257,8 @@ section > div {
 
 
 
+
+
 /* Estilo del contenedor de las gambas */
 .otros {
     display: flex;
@@ -265,10 +267,18 @@ section > div {
     margin: 0 auto; /* Centra el contenedor de las gambas */
     margin-top: 20px;
 }
-
+.cajaOtros{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
 /* Estilo de cada tipo de gamba */
-.cigalaCoruña,
-.cigalaHuelva{
+.Anchoas,
+.angulas,
+.percebes,
+.almejas,
+.ostras{
     /* flex: 1; */
     margin: 10px;
     border: 2px solid #333;
@@ -351,4 +361,45 @@ section > div {
         width: 250px;
     }
 
+    .cajaOtros {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start; /* Alinea los elementos arriba */
+        margin: 20px;
+      }
+      
+
+    .ostras,
+    .almejas,
+    .angulas,
+    .Anchoas,
+    .percebes {
+        text-align: center;
+        padding: 10px;
+        border: 1px solid #ccc;
+      }
+
+    .ostras,
+    .almejas,
+    .angulas {
+        flex: 0 1 calc(30% - 10px); /* Calcula el ancho de cada elemento con margen */
+        margin-bottom: 20px; /* Ajusta según tu diseño */
+      }
+      
+    .ostras, img
+    .almejas, img
+    .angulas, img {
+        width: 100%; /* Ajusta según tu diseño */
+      }
+
+    .otros h2 {
+        text-align: center;
+        margin-bottom: -10px; /* Ajusta el espaciado según tu diseño */
+      }
+
+    .percebes,
+    .Anchoas{
+        width: 80px;
+    }
 }
