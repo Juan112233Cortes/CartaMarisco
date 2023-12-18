@@ -377,7 +377,7 @@ section > div {
     .percebes {
         text-align: center;
         padding: 10px;
-        border: 1px solid #ccc;
+        height: 130px;
       }
 
     .ostras,
@@ -387,10 +387,13 @@ section > div {
         margin-bottom: 20px; /* Ajusta según tu diseño */
       }
       
-    .ostras, img
-    .almejas, img
-    .angulas, img {
+    .ostras img,
+    .almejas img,
+    .angulas img,
+    .Anchoas img,
+    .percebes img {
         width: 100%; /* Ajusta según tu diseño */
+        
       }
 
     .otros h2 {
