@@ -47,8 +47,10 @@ section > div {
 
 .gamba,
 .cigala,
+.langostino,
 .otros{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
 }
 
 .nombreProducto{
@@ -74,6 +76,7 @@ section > div {
     margin: 10px;
     border: 2px solid #333;
     text-align: center;
+    transition: background-color 0.3s ease;
 }
 
 /* Estilo de las imágenes de las gambas */
@@ -106,23 +109,33 @@ section > div {
     margin: 20px;
     margin: 0 auto; /* Centra el contenedor de las gambas */
     margin-top: 20px;
+    
 }
 
-/* Estilo de cada tipo de gamba */
+.cajaCigala{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+/* Estilo de cada div de cigala */
 .cigalaCoruña,
 .cigalaHuelva{
-    flex: 1;
+    /* flex: 1; */
     margin: 10px;
     border: 2px solid #333;
     text-align: center;
+    width: fit-content;
 }
 
 /* Estilo de las imágenes de las gambas */
 .cigala img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     margin-bottom: 10px;
-    
+    object-fit: fill;
+    width: 659px;
 }
 
 /* Estilo de los títulos de las gambas */
@@ -140,6 +153,107 @@ section > div {
 
 
 
+/* ----------------------------------------------------------------LANGOSTINO--------------------------------------------------------------- */
+
+/* Estilo del contenedor de las gambas */
+.langostino {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin: 0 auto; /* Centra el contenedor de las gambas */
+    margin-top: 20px;
+    
+}
+.cajaLangostino{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+/* Estilo de cada div de langostino */
+.langostinoCocido,
+.langostinoCongelado{
+    /* flex: 1; */
+    margin: 10px;
+    border: 2px solid #333;
+    text-align: center;
+    width: fit-content;
+}
+
+/* Estilo de las imágenes de las gambas */
+.langostino img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    object-fit: fill;
+    width: 659px;
+}
+
+/* Estilo de los títulos de las gambas */
+.langostino h2 {
+    color: #333;
+    margin-bottom: 10px; /* Aumenta el espacio entre el título y el párrafo siguiente */
+    text-align: center; /* Centra el texto horizontalmente */
+    width: 100%; /* Asegura que ocupe todo el ancho del contenedor de gamba */
+}
+
+/* Estilo de los párrafos de las gambas */
+.langostino p {
+    margin-bottom: 5px;
+}
+
+
+
+
+
+/* ----------------------------------------------------------------LANGOSTINO--------------------------------------------------------------- */
+
+/* Estilo del contenedor de las gambas */
+.carabinero {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin: 0 auto; /* Centra el contenedor de las gambas */
+    margin-top: 20px;
+    
+}
+.cajaCarabinero{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+/* Estilo de cada div de langostino */
+.carabineroCongelado{
+    /* flex: 1; */
+    margin: 10px;
+    border: 2px solid #333;
+    text-align: center;
+    width: fit-content;
+}
+
+/* Estilo de las imágenes de las gambas */
+.carabinero img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    object-fit: fill;
+    width: 659px;
+}
+
+/* Estilo de los títulos de las gambas */
+.carabinero h2 {
+    color: #333;
+    margin-bottom: 10px; /* Aumenta el espacio entre el título y el párrafo siguiente */
+    text-align: center; /* Centra el texto horizontalmente */
+    width: 100%; /* Asegura que ocupe todo el ancho del contenedor de gamba */
+}
+
+/* Estilo de los párrafos de las gambas */
+.carabinero p {
+    margin-bottom: 5px;
+}
+
 
 
 /* Estilo del contenedor de las gambas */
@@ -154,7 +268,7 @@ section > div {
 /* Estilo de cada tipo de gamba */
 .cigalaCoruña,
 .cigalaHuelva{
-    flex: 1;
+    /* flex: 1; */
     margin: 10px;
     border: 2px solid #333;
     text-align: center;
