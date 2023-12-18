@@ -1,0 +1,182 @@
+body{
+    /* background: linear-gradient(to right, #000000, #373030,#605D5D,#928989,#9F9F9F); */
+    background-color: #ededed;
+}
+/* Reset de estilos */
+body, h1, h2, p, img, header {
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(255, 235, 204); */
+}
+
+/* Estilo del cuerpo */
+body {
+    font-family: 'Open Sans', sans-serif;}
+
+/* Estilo del encabezado */
+header {
+    padding: 10px;
+    text-align: center;
+    background-color: #333;
+    color: #fff; /* Color del texto para mayor contraste con el fondo */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin-bottom: 20px;
+    z-index: 1000; /* Ajusta el índice z para manejar el apilamiento si es necesario */
+}
+
+header img{
+    /* background-color: #333; */
+    width: 10%;
+}
+/* Estilo de la sección */
+section {
+    margin: 20px;
+}
+
+/* Estilo del contenedor principal */
+section > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Alinea los elementos con espacio entre ellos */
+    margin: 0 auto; /* Centra el contenedor principal */
+    margin-top: 130px;
+    
+}
+
+.gamba,
+.cigala,
+.otros{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.nombreProducto{
+    font-size: 20px;
+}
+
+
+
+/* --------------------------------------------------------------------GAMBA------------------------------------------------------------------------- */
+/* Estilo del contenedor de las gambas */
+.gamba {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin: 0 auto; /* Centra el contenedor de las gambas */
+}
+
+/* Estilo de cada tipo de gamba */
+.gambaBlanca,
+.gambaRoja,
+.gambaCocida {
+    flex: 1;
+    margin: 10px;
+    border: 2px solid #333;
+    text-align: center;
+}
+
+/* Estilo de las imágenes de las gambas */
+.gamba img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Estilo de los títulos de las gambas */
+.gamba h2 {
+    color: #333;
+    margin-bottom: 10px; /* Aumenta el espacio entre el título y el párrafo siguiente */
+    text-align: center; /* Centra el texto horizontalmente */
+    width: 100%; /* Asegura que ocupe todo el ancho del contenedor de gamba */
+}
+
+/* Estilo de los párrafos de las gambas */
+.gamba p {
+    margin-bottom: 5px;
+}
+
+
+/* ----------------------------------------------------------------CIGALAS--------------------------------------------------------------- */
+
+/* Estilo del contenedor de las gambas */
+.cigala {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin: 0 auto; /* Centra el contenedor de las gambas */
+    margin-top: 20px;
+}
+
+/* Estilo de cada tipo de gamba */
+.cigalaCoruña,
+.cigalaHuelva{
+    flex: 1;
+    margin: 10px;
+    border: 2px solid #333;
+    text-align: center;
+}
+
+/* Estilo de las imágenes de las gambas */
+.cigala img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    
+}
+
+/* Estilo de los títulos de las gambas */
+.cigala h2 {
+    color: #333;
+    margin-bottom: 10px; /* Aumenta el espacio entre el título y el párrafo siguiente */
+    text-align: center; /* Centra el texto horizontalmente */
+    width: 100%; /* Asegura que ocupe todo el ancho del contenedor de gamba */
+}
+
+/* Estilo de los párrafos de las gambas */
+.cigala p {
+    margin-bottom: 5px;
+}
+
+
+
+
+
+/* Estilo del contenedor de las gambas */
+.otros {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin: 0 auto; /* Centra el contenedor de las gambas */
+    margin-top: 20px;
+}
+
+/* Estilo de cada tipo de gamba */
+.cigalaCoruña,
+.cigalaHuelva{
+    flex: 1;
+    margin: 10px;
+    border: 2px solid #333;
+    text-align: center;
+}
+
+/* Estilo de las imágenes de las gambas */
+.otros img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    
+}
+
+/* Estilo de los títulos de las gambas */
+.otros h2 {
+    color: #333;
+    margin-bottom: 10px; /* Aumenta el espacio entre el título y el párrafo siguiente */
+    text-align: center; /* Centra el texto horizontalmente */
+    width: 100%; /* Asegura que ocupe todo el ancho del contenedor de gamba */
+}
+
+/* Estilo de los párrafos de las gambas */
+.otros p {
+    margin-bottom: 5px;
+}
