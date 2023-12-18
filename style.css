@@ -48,6 +48,7 @@ section > div {
 .gamba,
 .cigala,
 .langostino,
+.carabinero,
 .otros{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     padding: 20px;
@@ -293,4 +294,49 @@ section > div {
 /* Estilo de los párrafos de las gambas */
 .otros p {
     margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    header{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0px;
+
+    }
+    div > .gamba{
+        margin-top: -60px;
+    }
+    .gamba,
+    .cigala,
+    .langostino,
+    .carabinero,
+    .otros{
+        font-size: 9px;
+    }
+    .nombreProducto{
+        font-size: 11px;
+    }
+
+    .cigalaHuelva,
+    .cigalaCoruña,
+    .langostinoCocido,
+    .langostinoCongelado{
+        width: 170px;
+    }
+    .cigalaHuelva img,
+    .cigalaCoruña img,
+    .langostinoCocido img,
+    .langostinoCongelado img{
+        width: 170px;
+    }
+
+    .carabinero{
+        width: 250px;
+    }
+
+    .carabinero img{
+        width: 250px;
+    }
+
 }
