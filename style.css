@@ -318,17 +318,29 @@ section > div {
         font-size: 11px;
     }
 
+    .gambaCocida,
+    .gambaBlanca,
+    .gambaRoja {
+        width: 290px;
+    }
+
+    .gambaCocida img,
+    .gambaBlanca img,
+    .gambaRoja img{
+        width: 290px;
+    }
+
     .cigalaHuelva,
     .cigalaCoruña,
     .langostinoCocido,
     .langostinoCongelado{
-        width: 170px;
+        width: 140px;
     }
     .cigalaHuelva img,
     .cigalaCoruña img,
     .langostinoCocido img,
     .langostinoCongelado img{
-        width: 170px;
+        width: 140px;
     }
 
     .carabinero{
